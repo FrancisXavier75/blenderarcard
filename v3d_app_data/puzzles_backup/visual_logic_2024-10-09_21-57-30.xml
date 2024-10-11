@@ -1,0 +1,68 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="36.561259935558155" scrolly="263.30901752056707" scale="0.8050546029709232">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="nr~kQ1A(~,2^G6|b6Cxm" x="10" y="10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="interface" type="CommonTab" active="true" scrollx="54.32079319510228" scrolly="69.69894307667096" scale="0.724549142673831">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="-8NU={zQpK(Q?5F!2DYl" x="10" y="470">
+      <field name="ELEMENT">a</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="(CR[.lu}L53A#sIn(tVz">
+          <field name="TEXT">enter_AR_button</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="kE^dlw0SErL%GRr!U%fP">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id="xt^DmanDnYoG7Ai`?D#*">
+          <field name="ELEMENT">img</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="D68(FnsV#Yrf,jjTS(Tk">
+              <field name="TEXT">enter_AR_img</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id="JHPikndH!:#$,gV/?#g2">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+            <block type="text" id="(nSL7-YTRnufajru`JwU">
+              <field name="TEXT">enter_AR_button</field>
+            </block>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="w3N9XNyXrAl|[,I[BYX8">
+              <field name="ATTRIBUTE">src</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="*~;Rc/`w{s#L}iP^)CtC">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="yZ2Ctr_9vEB=V,$8^Giu">
+                  <field name="TEXT">media/enter_AR_button.png</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Ccn}Evtqf4snopNm}Jc9">
+                  <field name="TEXT">enter_AR_img</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="493.2" viewport-y="37" viewport-w="340.8" viewport-h="386" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
